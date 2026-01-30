@@ -25,9 +25,10 @@ export default function Navbar() {
             to="/"
             className="text-lg font-bold tracking-tight text-gray-900"
           >
-            <img src={navLogo} alt="" />
-            <img src={navJSAT} alt="" />
-            {/* <span className="text-orange-500">JSAT</span> */}
+            <span className="flex">
+              <img src={navLogo} alt="navLogo" />
+              <img src={navJSAT} alt="navJSAT" />
+            </span>
           </Link>
         </div>
 

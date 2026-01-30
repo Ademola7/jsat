@@ -4,6 +4,7 @@ import { InsightsTabs } from "../components/insights/InsightsTabs";
 import { FeaturedInsight } from "../components/insights/FeaturedInsight";
 import { InsightsGrid } from "../components/insights/InsightsGrid";
 import { InsightsCTA } from "../components/insights/InsightsCTA";
+import insightHero from "../assets/insightHero.jpg";
 
 const tabs = [
   "All Insights",
@@ -19,13 +20,16 @@ const InsightsPage = () => (
       <SectionTitle
         title="Insights on Supply Chain, Logistics & Market Strategy"
         subtitle="Research-backed perspectives from the field, across industries and regions."
+        backgroundImage={insightHero}
       />
       <InsightsTabs tabs={tabs} active={0} />
-      <div className="mt-12 grid gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2">
+      <div className="mt-12 grid gap-8">
+        <div>
           <FeaturedInsight />
         </div>
-        <InsightsGrid />
+        <div>
+          <InsightsGrid />
+        </div>
       </div>
       <InsightsCTA />
     </Container>
