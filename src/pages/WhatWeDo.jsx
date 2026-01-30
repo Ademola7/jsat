@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import CapabilityCard from "../components/WhatWeDo/CapabilityCard";
-import ValueCard from "../components/WhatWeDo/ValueCard";
+import CapabilityCard from "../components/whatWeDo/CapabilityCard";
+import ValueCard from "../components/whatWeDo/ValueCard";
 
 export default function WhatWeDo() {
   return (
