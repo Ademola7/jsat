@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@keyframes dash {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.animate-dash {
+  animation: dash 6s linear infinite;
+}
+/* .input {
+  @apply w-full rounded-lg border border-gray-200 px-4 py-3 text-sm outline-none focus:border-orange-500;
+} */
