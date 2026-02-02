@@ -1,3 +1,5 @@
+import aboutOffice from "../../assets/aboutOffice.jpg";
+
 export default function AboutHero() {
   return (
     <section className="mx-auto max-w-7xl px-6 pt-20">
@@ -15,7 +17,7 @@ export default function AboutHero() {
         {/* Image */}
         <div className="overflow-hidden rounded-xl">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={aboutOffice}
             alt="Boardroom"
             className="h-full w-full object-cover"
           />

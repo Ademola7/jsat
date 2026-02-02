@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../assets/about.jpg";
 import { ArrowRight } from "lucide-react";
 import CapabilityCard from "../components/whatWeDo/CapabilityCard";
 import ValueCard from "../components/whatWeDo/ValueCard";
@@ -9,8 +10,8 @@ export default function WhatWeDo() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div
-          className="absolute inset-0 bg-[url('/network-bg.svg')]
-          bg-cover bg-center opacity-[0.15]"
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{ backgroundImage: `url(${aboutImg})` }}
         />
 
         <div className="relative max-w-7xl mx-auto px-6 pt-24 pb-28">

@@ -1,5 +1,14 @@
+import insight2 from "../../assets/insight2.png";
+
 export const InsightsCTA = () => (
-  <div className="mt-20 rounded-3xl bg-gradient-to-br from-indigo-900 to-slate-900 p-12 text-white">
+  <div
+    className="mt-20 rounded-3xl p-12 text-white"
+    style={{
+      backgroundImage: `url(${insight2})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
     <h3 className="text-2xl font-semibold">
       Let’s Apply This to Your Supply Chain
     </h3>
