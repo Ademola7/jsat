@@ -16,7 +16,12 @@ export default function ContactInfo() {
     <aside className="space-y-8">
       <Item title="Chat with us" text="Speak to our friendly team via chat." />
       <Item title="Start a live chat" text="Open chat" link />
-      <Item title="Send us an email" text="hello@company.com" link />
+      <Item
+        title="Send us an email"
+        text="hello@jsatsolutions.com
+"
+        link
+      />
 
       <Item title="Call us" text="Call our team Mon–Fri from 8am to 5pm" />
       <Item title="Phone" text="+234 000 000 0000" />

@@ -89,7 +89,7 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Contact Us</h4>
           <p className="text-sm mb-4">
             <a href="mailto:hello@jsat.com" className="hover:underline">
-              hello@jsat.com
+              hello@jsatsolutions.com
             </a>
           </p>
 
