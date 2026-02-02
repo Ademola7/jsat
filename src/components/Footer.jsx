@@ -28,17 +28,17 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Company</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/about" className="hover:underline">
+              <Link to="/about-us" className="hover:underline">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/careers" className="hover:underline">
+              <Link to="/" className="hover:underline">
                 Careers
               </Link>
             </li>
             <li>
-              <Link to="/news" className="hover:underline">
+              <Link to="/insights" className="hover:underline">
                 News & Insights
               </Link>
             </li>
@@ -72,7 +72,7 @@ export default function Footer() {
           <h4 className="font-semibold mb-4">Resources</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/reports" className="hover:underline">
+              <Link to="/industries" className="hover:underline">
                 Reports
               </Link>
             </li>
