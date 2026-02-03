@@ -3,7 +3,6 @@ import industries1 from "../../assets/industries1.png";
 export const IndustryCTA = () => (
   <div className="mt-20 rounded-3xl overflow-hidden">
     <div className="md:flex">
-      {/* Left: text content with grey background */}
       <div className="w-full md:w-1/2 bg-gray-100 p-8 md:p-12 text-gray-900">
         <h3 className="text-2xl font-semibold text-black">
           Let’s Apply This to Your Supply Chain

@@ -12,6 +12,11 @@ import InsightsPage from "./pages/InsightsPage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
+// Legal
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiesPolicy from "./pages/CookiesPolicy";
+
 export default function App() {
   return (
     <div className="font-sans text-gray-900">
@@ -37,7 +42,11 @@ export default function App() {
           path="/consulting-advisory"
           element={<div className="p-10">Consulting & Advisory</div>}
         />
+        <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/cookies" element={<CookiesPolicy />} />
       </Routes>
+
       <Footer />
     </div>
   );
