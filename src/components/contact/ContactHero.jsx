@@ -1,19 +1,16 @@
+// ContactHero.jsx
 export default function ContactHero() {
   return (
-    <section className="relative overflow-hidden bg-gray-50">
-      <div className="mx-auto max-w-7xl px-6 py-20">
-        <h1 className="text-3xl font-semibold text-gray-900">Contact Us</h1>
-        <p className="mt-2 text-gray-600">
-          Let’s discuss how we may help your business
+    <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white">
+      <div className="mx-auto max-w-7xl px-6 py-24">
+        <h1 className="text-4xl font-semibold tracking-tight text-gray-900">
+          Contact us
+        </h1>
+        <p className="mt-3 max-w-xl text-gray-600">
+          Tell us about your goals and we’ll explore how JSAT Solutions can help
+          move your business forward.
         </p>
       </div>
-
-      {/* Decorative wave */}
-      <img
-        src="https://via.placeholder.com/800x200"
-        alt=""
-        className="absolute right-0 top-0 h-full opacity-20"
-      />
     </section>
   );
 }

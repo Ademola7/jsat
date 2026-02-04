@@ -1,8 +1,12 @@
+// ContactInfo.jsx
 const Item = ({ title, text, link }) => (
   <div className="space-y-1">
     <h4 className="text-sm font-semibold text-gray-900">{title}</h4>
     {link ? (
-      <a href="#" className="text-sm text-gray-600 hover:text-orange-500">
+      <a
+        href={link}
+        className="text-sm text-gray-600 hover:text-orange-500 transition"
+      >
         {text}
       </a>
     ) : (
@@ -13,18 +17,20 @@ const Item = ({ title, text, link }) => (
 
 export default function ContactInfo() {
   return (
-    <aside className="space-y-8">
-      <Item title="Chat with us" text="Speak to our friendly team via chat." />
-      <Item title="Start a live chat" text="Open chat" link />
+    <aside className="space-y-10">
       <Item
-        title="Send us an email"
-        text="hello@jsatsolutions.com
-"
-        link
+        title="Email us"
+        text="hello@jsatsolutions.com"
+        link="mailto:hello@jsatsolutions.com"
       />
 
-      <Item title="Call us" text="Call our team Mon–Fri from 8am to 5pm" />
-      <Item title="Phone" text="+234 000 000 0000" />
+      <Item
+        title="Call us"
+        text="+234 000 000 0000"
+        link="tel:+2340000000000"
+      />
+
+      <Item title="Office hours" text="Monday – Friday, 8am – 5pm" />
     </aside>
   );
 }

@@ -1,3 +1,4 @@
+// Contact.jsx
 import Navbar from "../components/Navbar";
 import ContactHero from "../components/contact/ContactHero";
 import ContactForm from "../components/contact/ContactForm";
@@ -8,11 +9,12 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <main className="space-y-24 pb-24">
+
+      <main className="space-y-32 pb-32">
         <ContactHero />
 
         <section className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-16 md:grid-cols-3">
+          <div className="grid gap-20 md:grid-cols-3">
             <ContactForm />
             <ContactInfo />
           </div>
