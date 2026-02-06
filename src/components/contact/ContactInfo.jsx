@@ -26,8 +26,8 @@ export default function ContactInfo() {
 
       <Item
         title="Call us"
-        text="+234 000 000 0000"
-        link="tel:+2340000000000"
+        text="+234 817 212 1622"
+        link="tel:+2348172121622"
       />
 
       <Item title="Office hours" text="Monday – Friday, 8am – 5pm" />

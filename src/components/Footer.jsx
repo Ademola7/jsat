@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // import JSAT from "../assets/JSAT.svg";
-import footerLogo from "../assets/footerLogo.png";
+import footerIcon from "../assets/footerIcon.png";
 import footerJSAT from "../assets/footerJSAT.png";
 import {
   FaWhatsapp,
@@ -18,7 +18,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="md:col-span-1">
           <Link to="/" className="flex items-center gap-2 text-xl font-bold">
-            <img src={footerLogo} alt="JSAT" />
+            <img src={footerIcon} alt="JSAT" />
             <img src={footerJSAT} alt="JSAT" />
           </Link>
         </div>
